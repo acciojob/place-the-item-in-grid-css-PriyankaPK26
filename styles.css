@@ -6,7 +6,8 @@
   height:400px;
   background-color:#fff;
   display:grid;
-  grid-template-columns: 200px 200px;
+	grid-template-columns: repeat(2, 200px);
+/*   grid-template-columns: 200px 200px; */
   grid-row: auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
